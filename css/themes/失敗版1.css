@@ -1,0 +1,47 @@
+/* 配色表：失敗版1（試用後未採用，保留備查）
+   由無聊公版換色：白→#E5E1D8、藍→#D9FF00、紅→#FF5A36、杏→#33363A。
+   螢光色在米白底上讀不清楚，所以螢光色只當底色，字一律用深色。 */
+:root {
+  --paper: #e5e1d8;
+  --main: #d9ff00;
+  --holiday: #ff5a36;
+  --aside: #33363a;
+
+  --ink: #1e1b18;
+  --main-deep: #33363a;   /* 連結、外框、焦點框 */
+  --main-deeper: #1e1b18;
+  --main-tint: #e6eb9c;   /* 滑過、選取的列 */
+  --leaf-line: #8ea800;
+  --holiday-tint: #f5bfab;
+  --aside-line: #565a5f;
+  --mute: #56504b;
+  --line: #c6bfb1;
+  --field: #756d66;
+  --soft: #d8d3c8;
+  --pending: #1e1b18;
+
+  --on-main: #1e1b18;
+  --act: #d9ff00;         /* 按鈕、今天、選取的分頁 */
+  --act-hover: #c2e500;
+  --on-act: #1e1b18;
+  --mark: #33363a;        /* 螢光色看不出來的細線與大數字 */
+  --on-holiday: #1e1b18;
+  --holiday-ink: #961d05; /* 紅色小字 */
+  --holiday-line: #a8331a;
+  --aside-ink: #e5e1d8;
+  --aside-link: #d9ff00;
+  --aside-num: #d9ff00;
+  --aside-mute: #c9c4ba;
+  --aside-warn: #ff8a6e;
+  --leaf-btn: #33363a;
+  --leaf-btn-hover: #1e1b18;
+  --on-leaf-btn: #d9ff00;
+  --on-leaf-btn-holiday: #e5e1d8;
+  --st-pad: 1px 9px;
+  --st-pending: #33363a;
+  --on-st-pending: #e5e1d8;
+  --st-ok: #d9ff00;
+  --on-st-ok: #1e1b18;
+  --st-no: #ff5a36;
+  --on-st-no: #1e1b18;
+}
