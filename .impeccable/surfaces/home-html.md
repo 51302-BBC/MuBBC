@@ -1,7 +1,7 @@
 ---
 version: 1
 slug: "home-html"
-primary_target: "home.html"
+primary_target: "pages/home.html"
 related_targets: ["index.html"]
 ---
 

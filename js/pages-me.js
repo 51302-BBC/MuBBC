@@ -20,7 +20,7 @@ RENDER.index = (root) => {
     const r = e.target.role.value;
     store.set('role', r);
     myPunch.clear();
-    location.href = 'home.html' + (store.get('role') === r ? '' : '?role=' + r);
+    location.href = 'pages/home.html' + (store.get('role') === r ? '' : '?role=' + r);
   };
 };
 

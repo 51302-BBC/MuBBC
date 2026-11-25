@@ -198,7 +198,7 @@ function shell() {
     ${allowed(['manager', 'admin', 'boss']) ? `<a class="badge-link" href="approvals.html">待我核准 <span class="badge">${queue.length}</span></a>` : ''}
     <div class="who">
       <label>展示角色<select data-role-pick>${opts}</select></label>
-      <details class="drop"><summary>${me.name}${CHEV}</summary><div class="drop-list right"><a href="profile.html"${cur === 'profile' ? ' aria-current="page"' : ''}>個人資料</a><a href="index.html">登出</a></div></details>
+      <details class="drop"><summary>${me.name}${CHEV}</summary><div class="drop-list right"><a href="profile.html"${cur === 'profile' ? ' aria-current="page"' : ''}>個人資料</a><a href="../index.html">登出</a></div></details>
     </div>
   </div></header>
   <dialog class="drawer" id="drawer" aria-label="選單">
@@ -206,7 +206,7 @@ function shell() {
     <nav aria-label="手機選單"><h3>我的</h3>${mine.map(a).join('')}${a(['profile', '個人資料'])}
     <h3>公司</h3>${a(['calendar', '行事曆'])}${a(['colleagues', '同事動態'])}
     ${role === 'staff' ? '' : `<h3>${ROLES[role]}</h3>${top.filter((p) => p[2]).map(a).join('')}${man.map(a).join('')}`}
-    <h3>${me.name}，${me.dept}</h3><a href="index.html">登出</a></nav>
+    <h3>${me.name}，${me.dept}</h3><a href="../index.html">登出</a></nav>
     <label>展示角色<select data-role-pick>${opts}</select></label>
   </dialog>`);
   document.body.insertAdjacentHTML('beforeend', '<footer class="foot">展示用雛形，人名、單據與時數皆為虛構，日期固定為 2026/11/24。</footer><div class="toast" id="toast" role="status"></div>');
